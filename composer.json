@@ -1,0 +1,34 @@
+{
+    "name": "levizoesch/cleareverything",
+    "type": "project",
+    "description": "A simple helper command to clear laravel routes, config, cache, views, compiled, and caches config.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Levi Zoesch",
+            "email": "levi@traqza.com"
+        }
+    ],
+    "keywords": [
+        "Traqza",
+        "laravel",
+        "laravel commands",
+        "laravel helpers",
+        "Laravel Clear Everything"
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "levizoesch\\cleareverything\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "ClearEverythingServiceProvider"
+            ]
+        }
+    }
+}
