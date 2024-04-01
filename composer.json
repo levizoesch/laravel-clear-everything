@@ -1,5 +1,5 @@
 {
-    "name": "levizoesch/cleareverything",
+    "name": "levizoesch/laravel-clear-everything",
     "type": "project",
     "description": "A simple helper command to clear laravel routes, config, cache, views, compiled, and caches config.",
     "license": "MIT",
